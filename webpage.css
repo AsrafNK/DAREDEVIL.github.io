@@ -1,0 +1,425 @@
+.call{
+    width: 15px;
+    height: 15px;
+}
+.child-top{
+    background-color: rgb(172, 9, 9);
+    width: 100%;
+    height: 40px;
+    position:fixed;
+    z-index: 99;
+    top:0;
+    left:0;
+    box-shadow: 2px 2px 10px yellowgreen;
+
+}
+.top{
+    color: white;
+    /* background-color: yellow; */
+    width: 200px;
+    height: 40px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    left: 80%;
+    top:0;
+    /* text-shadow: 5ps 5px 10px yellow; */
+
+}
+.top h4:hover{
+    font-size: 16px;
+    cursor:pointer;
+    text-decoration: underline;
+
+}
+.logo{
+    /* width: 50px; */
+    position: fixed;
+    top:42px;
+    left: 0;
+    background-color: rgb(208, 255, 0);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px;  
+    z-index: 90;
+}
+.left-logo{
+animation: 1s nob1 ease-out;
+animation-delay: 4s;
+}
+@keyframes nob1{
+    0%{
+        transform:rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.input input,.sss{
+    color: yellow;
+    position: fixed;
+    left: 850px;
+    top:57px;
+    background-color: darkcyan;
+}
+.input i{
+    position: fixed;
+    background: transparent;
+    left: 1025px;
+    cursor: pointer;
+    top:58px;
+    color: blue;
+}
+.logo img{
+    position: relative;
+    cursor: pointer;  
+    
+    
+    /* background-color: yellow; */
+    /* line-height: 10px; */
+    /* top:20px; */
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    border:1px solid none;
+    border-collapse: collapse;
+    
+}
+.bird{
+    position: absolute;
+    top:15px;
+}
+.icon{
+    /* background-color: yellow; */
+    position: relative;
+    display: flex;
+    
+    height: 35px;
+    justify-content: space-between;
+    right: 700px;
+    width: 250px;
+    
+    text-shadow: 3px 3px 10px blue;
+    
+    animation:1s nob ease-out;
+    animation-delay: 4s;
+}
+.icon i:hover{
+    border-radius: 10px;
+    display: inline-block;
+    
+    background-color: rgb(13, 228, 110);
+    padding: 8px;
+   
+}
+@keyframes nob{
+    0%{
+        transform:rotate(1deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.profile img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    /* float: right; */
+    top:100px;
+    /* left: 100px; */
+    margin: 20px;
+}
+.profile1{
+    box-shadow: 2px 2px 10px;
+    animation:3s alam linear;
+    /* animation-delay: 1s; */
+}
+@keyframes alam{
+    0%{
+     transform: translateX(100vh);
+     opacity: 0;
+    }
+    100%{
+    transform: translateX(100vh);
+    opacity: 1;
+    }
+}
+.visited{
+    position: relative;
+    /* right:100px; */
+    background-color: tomato;
+    width: 78%;
+    left: -34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px 20px 40px;
+    box-shadow: 0 2px 10px;
+    margin: 50px;
+}
+.visited h1{
+    height: 80px;
+    width: 90px;
+}
+.first-title{
+    position: static;
+    top:20px;
+    bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 10px red,4px 4px 10px yellow;
+}
+.place img{
+    position: static;
+    margin-left: 140px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    /* align-items: center; */
+    text-align: center;
+    float: left;
+    
+}
+.place2 img{
+    position: static;
+    left: 15%;
+    width: 400px;
+    height: 300px;
+    /* align-items: center; */
+    text-align: center;
+    
+}
+.place-text{
+    /* position: static; */
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 250px;
+}
+.place-text h1{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    transition: 1s background-color ease-in-out,1s font-size ease-in-out;
+    box-shadow: 2px 2px 10px black;
+    
+
+    
+}
+
+.place-text h1:hover{
+    background-color: yellow;
+    text-decoration: underline;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+
+.list{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.list img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    
+}
+.second-text{
+    text-align: center;
+    text-shadow: 2px 2px 10px;
+}
+.second-list{
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    text-shadow: 2px 2px 10px;
+}
+.second-list h4:hover{
+            cursor: pointer;
+            text-decoration: underline;
+}
+.highlights{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.highlights{
+    cursor: pointer;
+}
+.highlights1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(car/pexels-jiarong-deng-1034673.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+}
+.top1{
+    /* left: 0; */
+    color: yellow;
+    position: absolute;
+    display: inline;
+    background-color: green;
+    box-shadow: 1px 1px 10px yellow;
+}
+.highlights1:hover .details{
+    color: yellow;
+    font-size: 35px;
+    box-shadow: 2px 2px 10px yellow;
+ position: absolute;
+ background-color: green;
+ width: 100%;
+ bottom: 0;
+ 
+}
+.highlights2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(car/pexels-mudassir-ali-2300399.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+}
+.top2{
+    color: yellow;
+    position: absolute;
+    display: inline;
+    background-color: green;
+    box-shadow: 1px 1px 10px yellow;
+    }
+    .highlights2:hover .details2{
+        color: yellow;
+        font-size: 35px;
+        box-shadow: 2px 2px 10px yellow;
+     position: absolute;
+     background-color: green;
+     width: 100%;
+     bottom: 0;
+    }
+.highlights3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(car/pexels-paolo-sandionigi-8479823.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+}
+.top3{
+    color: yellow;
+    position: absolute;
+    display: inline;
+    background-color: green;
+    box-shadow: 1px 1px 10px yellow;
+    }
+    .highlights3:hover .details3{
+        color: yellow;
+        font-size: 35px;
+        box-shadow: 2px 2px 10px yellow;
+     position: absolute;
+     background-color: green;
+     width: 100%;
+     bottom: 0;
+    }
+.highlights4{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(car/pexels-quentin-tricoire-2568580.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+}
+.top4{
+    color: yellow;
+    position: absolute;
+    display: inline;
+    background-color: green;
+    box-shadow: 1px 1px 10px yellow;
+    }
+    .highlights4:hover .details4{
+        color: yellow;
+        font-size: 35px;
+        box-shadow: 2px 2px 10px yellow;
+     position: absolute;
+     background-color: green;
+     width: 100%;
+     bottom: 0;
+     
+    }
+    .hightlights-text{
+        text-align: center;
+        padding: auto;
+        margin: 20px;
+        font-size: 40px;
+        text-shadow: 2px 2px 10px black;
+    }
+    .part-text{
+        text-align: center;
+        padding: auto;
+        margin: 20px;
+        font-size: 40px;
+        text-shadow: 2px 2px 10px black;
+    }
+    .end{
+        position: relative;
+        box-shadow: -2px -2px 10px black;
+        display: block;
+        width: 105%;
+        height: 200px;
+        margin:20px;
+        display: flex;
+        justify-content: space-between;
+        bottom: -20px;
+        left:-30px;
+    }
+    .p{
+        position: relative;
+        width: 300px;
+        left: 20px;
+        top:10px;
+    }
+
+    .l{
+        top: 10px;
+        position: relative;
+        width: 90px;
+        height: 50px;
+    }
+    .l ls:hover{
+        text-shadow: 1px 1px 10px steelblue;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .s{
+        top:10px;
+        position: relative;
+        width: 200px;
+        height: 50px;
+        display: grid;
+    }
+    .s i:hover{
+        text-shadow: 1px 1px 10px steelblue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .m{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
